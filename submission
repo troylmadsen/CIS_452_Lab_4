@@ -1,0 +1,45 @@
+Script started on 2018-09-20 16:43:46-04:00
+]0;madsentr@eos03:~/CIS_452/labs/4/project[madsentr@eos03 project]$ make run
+clang -c -o server.o -Wall server.c
+clang -o server -Wall -lpthread server.o
+./server
+>troy is cool
+>File "troy is cool" delivered
+test
+> 1
+> 1
+>File "test" delivered
+1
+>1File " 1" delivered
+
+>File "1" delivered
+File " 1" delivered
+File "1" delivered
+1
+>2
+>3
+>4
+>5File "1" delivered
+
+>6File "2" delivered
+
+>7File "3" delivered
+
+>8File "4" delivered
+
+>9
+>0File "6" delivered
+
+>File "7" delivered
+File "9" delivered
+File "0" delivered
+File "8" delivered
+File "5" delivered
+^C
+Total files requested: 16
+Total files serviced: 16
+Total service_time duration: 48
+
+]0;madsentr@eos03:~/CIS_452/labs/4/project[madsentr@eos03 project]$ exit
+
+Script done on 2018-09-20 16:44:32-04:00
